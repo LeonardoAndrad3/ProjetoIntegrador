@@ -1,2 +1,2 @@
 # RepositoryClass
-My repository in class
+My class repository
