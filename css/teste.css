@@ -11,28 +11,26 @@ s
 #container  {  	
 	margin: 1em auto;  	
   display: flex;
-  flex-wrap: wrap;
-	width: 450px;  	
+  width: 300px;
+  background-color: rgb(156, 156, 156);  
+  background-image: linear-gradient(to bottom, rgba(12,12,12.3), rgba(56, 56, 56));
+  border: 2px solid rgb(139, 139, 139);
   
 	}    
 
   #contents  {  	
-    background: rgb(85, 85, 85); 
-    background-image: linear-gradient(to top, rgba(12,12,12), rgba(255,255,255,));
     flex: 30%;
-    float: left;  	
-    width: 450px;  	
-     
+   	     
     }    
 
 .table-responsive{
-  width: 100%;
+  width: 50%;
 }
 
 .table {
     border: 1px solid rgb(255, 0, 0);
-    width: 60% ;
     margin: auto;
+ 
 }
 
 .table-status {
@@ -40,7 +38,6 @@ s
     margin-bottom: 20px ;
     color: black;
 }
-
 
 /* Style the body */
 body {
@@ -57,7 +54,7 @@ th{
   border:2px solid rgb(255, 252, 252);
   background-color:rgb(0, 0, 0);
   color: #ffffff;
-  
+  text-align: center;
 
 }
 
@@ -66,7 +63,7 @@ th{
   border: 1px groove rgb(153, 153, 153);
   background-color:rgba(255, 255, 255, 0.349);
   font: 15px italic;
-
+  text-align: justify;
 }
 
 
@@ -132,7 +129,7 @@ p {
 
 /* Main column */
 .main {
-  flex: 70%;
+  flex: 100%;
   background-color: #f1f1f1;
   padding: 20px;
 }
@@ -170,6 +167,15 @@ p {
   color: white;
 }
 
+#footer  {  	
+	clear: both;  	
+  padding: 10px;
+  text-align: center;
+  background: rgb(0, 0, 0);
+  color: white;
+  background-image: linear-gradient(to bottom, rgba(12,12,12.3), rgba(56, 56, 56));
+}
+	 
 
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
