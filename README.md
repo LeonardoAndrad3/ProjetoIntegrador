@@ -1,0 +1,2 @@
+# RepositoryClass
+My class repository
